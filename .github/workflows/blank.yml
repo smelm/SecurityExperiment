@@ -16,3 +16,7 @@ jobs:
 
       - name: Run a one-line script
         run: echo "hello world" >> message.txt
+
+
+      - name: Do something evil
+        run: echo "something evil" >> evil.txt
